@@ -14,5 +14,5 @@ def collatz(num):
 			return collatz(new_num)
 
 
-collatz(5)
+collatz(int(input("Enter the number")))
 print((col_arr))
